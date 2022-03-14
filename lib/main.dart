@@ -1,18 +1,18 @@
 import 'package:flutter/material.dart';
-import 'home_page.dart';
+import 'pages/xylophone_page.dart';
 
 void main() {
-  runApp(const XylophoneApp());
+  runApp(const MyApp());
 }
 
-class XylophoneApp extends StatelessWidget {
-  const XylophoneApp({Key key}) : super(key: key);
+class MyApp extends StatelessWidget {
+  const MyApp({Key key}) : super(key: key);
 
   @override
   Widget build(BuildContext context) {
     return const MaterialApp(
       debugShowCheckedModeBanner: false,
-      home: HomePage(),
+      home: XylophonePage(),
     );
   }
 }
